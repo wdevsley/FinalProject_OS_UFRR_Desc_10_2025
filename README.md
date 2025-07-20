@@ -1,10 +1,10 @@
-Projeto Final – Sistemas Operacionais (DCC403)
-Este repositório é destinado ao Projeto Final da disciplina de Sistemas Operacionais (DCC403), da Universidade Federal de Roraima (UFRR).
+# Projeto Final – Sistemas Operacionais (DCC403)
 
-O projeto foi desenvolvido pelos alunos:
+Este repositório é destinado ao **Projeto Final da disciplina de Sistemas Operacionais (DCC403)**, da **Universidade Federal de Roraima (UFRR)**.
 
-Wesley Silva Araújo
+## Alunos
+- **Wesley Silva Araújo**
+- **Luciano dos Santos Nascimento**
 
-Luciano dos Santos Nascimento
-
-O trabalho tem como objetivo implementar e analisar conceitos fundamentais de Sistemas Operacionais, aplicando-os em um estudo prático conforme o tema escolhido no enunciado do projeto final.
+## Descrição
+O projeto faz parte das atividades finais da disciplina e tem como objetivo aplicar conceitos fundamentais de **Sistemas Operacionais** por meio de um estudo prático, de acordo com o tema definido em sala de aula.
