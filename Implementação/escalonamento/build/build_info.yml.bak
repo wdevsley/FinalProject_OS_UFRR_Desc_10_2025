@@ -1,0 +1,4 @@
+west:
+  command: /home/luciano/.local/bin/west build -b qemu_x86
+  topdir: /home/luciano/zephyrproject
+  version: 1.4.0

@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: '/home/luciano/zephyrproject/zephyr/samples/escalonamento'
+    source-dir: '/home/luciano/zephyrproject/zephyr/samples/escalonamento'
+  board:
+    name: 'qemu_x86'
+    path:
+     - '/home/luciano/zephyrproject/zephyr/boards/qemu/x86'
+    qualifiers: 'atom'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/luciano/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/luciano/zephyrproject/zephyr/boards/qemu/x86/qemu_x86.dts'
+    include-dirs:
+     - '/home/luciano/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/luciano/zephyrproject/modules/hal/atmel/include'
+     - '/home/luciano/zephyrproject/modules/hal/bouffalolab/include'
+     - '/home/luciano/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - '/home/luciano/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/luciano/zephyrproject/modules/hal/microchip/include'
+     - '/home/luciano/zephyrproject/modules/hal/microchip/dts'
+     - '/home/luciano/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/luciano/zephyrproject/modules/hal/nxp/dts'
+     - '/home/luciano/zephyrproject/modules/hal/stm32/dts'
+     - '/home/luciano/zephyrproject/modules/hal/ti/dts'
+     - '/home/luciano/zephyrproject/zephyr/include'
+     - '/home/luciano/zephyrproject/zephyr/include/zephyr'
+     - '/home/luciano/zephyrproject/zephyr/dts/common'
+     - '/home/luciano/zephyrproject/zephyr/dts/vendor'
+     - '/home/luciano/zephyrproject/zephyr/dts/rx'
+     - '/home/luciano/zephyrproject/zephyr/dts/x86'
+     - '/home/luciano/zephyrproject/zephyr/dts/xtensa'
+     - '/home/luciano/zephyrproject/zephyr/dts/sparc'
+     - '/home/luciano/zephyrproject/zephyr/dts/riscv'
+     - '/home/luciano/zephyrproject/zephyr/dts/posix'
+     - '/home/luciano/zephyrproject/zephyr/dts/arm64'
+     - '/home/luciano/zephyrproject/zephyr/dts/arm'
+     - '/home/luciano/zephyrproject/zephyr/dts/arc'
+     - '/home/luciano/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/luciano/zephyrproject/zephyr/boards/qemu/x86/qemu_x86_defconfig'
+     - '/home/luciano/zephyrproject/zephyr/samples/escalonamento/prj.conf'
+    user-files:
+     - '/home/luciano/zephyrproject/zephyr/samples/escalonamento/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/luciano/zephyr-sdk-0.16.5'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: '/home/luciano/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: '/home/luciano/.local/bin/west build -b qemu_x86'
+  topdir: '/home/luciano/zephyrproject'
+  version: '1.4.0'
